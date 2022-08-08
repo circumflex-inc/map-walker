@@ -5,6 +5,7 @@ type Data = {
   name: string
 }
 
+// TODO: ws server
 export default function handler(
   req: NextApiRequest,
   res: NextApiResponse<Data>
