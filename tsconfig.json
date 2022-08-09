@@ -24,8 +24,7 @@
       ]
     },
     "types": [
-      "@types/node",
-      "@nuxt/types"
+      "@types/node"
     ],
     "skipLibCheck": true,
     "forceConsistentCasingInFileNames": true,
@@ -39,7 +38,6 @@
   "include": [
     "next-env.d.ts",
     "**/*.ts",
-    "**/*.tsx",
-    "src/server/index.ts"
+    "**/*.tsx"
   ]
 }

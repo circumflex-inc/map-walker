@@ -1,12 +1,8 @@
 
-export interface EntryParams {
-  userId: string
-  message: string
-}
-
-export interface UpdateParams {
+export interface PositionParams {
   roomId: string
-  userId: string
-  message: string
-  username: string
+  userId?: string
+  username?: string
+  latitude?: number
+  longitude?: number
 }
