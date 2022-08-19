@@ -44,8 +44,6 @@
     "indent": ["error", 2],
     // かっこの中はスペースなし
     "space-in-parens": ["error", "never"],
-    // console.logは禁止 TODO: ここをあとで変える
-    // "no-console": ["error", { allow: ["warn", "error"] }],
     // カンマの後にスペース入れる
     "comma-spacing": [
       "error",

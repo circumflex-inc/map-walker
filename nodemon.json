@@ -1,5 +1,5 @@
 {
-  "watch": ["src/server"],
+  "watch": ["src/server/*", "src/sockets/*"],
   "project": "tsconfig.json",
   "exec": "node --experimental-loader=ts-node/esm --experimental-modules --es-module-specifier-resolution=node src/server/index.ts",
   "ext": "js,ts"
