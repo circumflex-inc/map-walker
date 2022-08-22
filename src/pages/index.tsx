@@ -21,8 +21,6 @@ const Index: NextPage = () => {
 
     // だれかのupdateを受け取る
     socket.on('update', (param: PositionParams[]) => {
-      console.log('list', param)
-
       setPositionListState(param)
     })
 
@@ -170,7 +168,7 @@ const Index: NextPage = () => {
               onUnmount={onUnmount}
             >
               <>
-                {positionListState.map(row => {
+                {positionListState?.map(row => {
                   // console.log('row', row)
                   return (
                     <Marker
